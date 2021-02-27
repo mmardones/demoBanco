@@ -5,6 +5,10 @@ Desarrollo
 	La app está hecho en IONIC 4 - ANGULAR.
 
 	Cuenta con un login, perfil y mapa, utilizando servicios de aws con autentificación de token.
+	
+	Por defecto tiene un usuario configurado en el login y solo debe "Entrar"
+	
+	Perfil y Maps son para visualizar información.
 
 	Importante! Se quitó la key maps.
 
