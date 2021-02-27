@@ -6,7 +6,7 @@ Desarrollo
 
 	Cuenta con un login, perfil y mapa, utilizando servicios de aws con autentificación de token.
 	
-	Por defecto tiene un usuario configurado en el login y solo debe "Entrar"
+	Por defecto tiene un usuario configurado en el login y solo debe "Entrar".
 	
 	Perfil y Maps son para visualizar información.
 
@@ -68,6 +68,6 @@ Installation
 3.- Descarga e Instalación APK solo para ANDROID
 	
 	1.-Descargar https://drive.google.com/file/d/1bKqyS7Z2cqc5DKlZvnbmGuQsTFeGI45z/view?usp=sharing
-	2.-Debe permitir la opción "ORÍGENES DESCONOCIDOS"
+	2.-Debe permitir la opción "ORÍGENES DESCONOCIDOS".
 	3.-Instalar.
-	4.-Por defecto tiene un usuario configurado en el login y solo debe "Entrar"
+	4.-Por defecto tiene un usuario configurado en el login y solo debe "Entrar".
