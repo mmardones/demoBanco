@@ -10,7 +10,7 @@ Desarrollo
 	
 	Perfil y Maps son para visualizar información.
 
-	Importante! Se quitó la key maps.
+	Importante! Se quitó la api key maps.
 
 Dependecia:
 	
