@@ -2,14 +2,39 @@
 
 Desarrollo
 
-	El servicio está hecho en IONIC 4 - ANGULAR.
+	La app está hecho en IONIC 4 - ANGULAR.
 
-	Cuenta con una login, perfil y mapa.
+	Cuenta con una login, perfil y mapa, utilizando servicios de aws con autentificación de token.
 
 	Importante! Se quitó la key maps.
 
 Dependecia:
+	Ionic:
 
+	   Ionic CLI                     : 5.2.3 (C:\Users\Matias\AppData\Roaming\npm\node_modules\ionic)
+	   Ionic Framework               : @ionic/angular 4.10.0
+	   @angular-devkit/build-angular : 0.801.3
+	   @angular-devkit/schematics    : 8.1.3
+	   @angular/cli                  : 8.1.3
+	   @ionic/angular-toolkit        : 2.0.0
+
+	Cordova:
+
+	   Cordova CLI       : 9.0.0 (cordova-lib@9.0.1)
+	   Cordova Platforms : not available
+	   Cordova Plugins   : cordova-plugin-ionic-keyboard 2.2.0, cordova-plugin-ionic-webview 4.1.2, (and 13 other plugins)
+
+	Utility:
+
+	   cordova-res : not installed
+	   native-run  : 0.2.8
+
+	System:
+
+	   Android SDK Tools : 26.1.1 (C:\Users\Matias\AppData\Local\Android\Sdk)
+	   NodeJS            : v10.16.0 (C:\Program Files\nodejs\node.exe)
+	   npm               : 6.9.0
+	   OS                : Windows 10
 	
 
 Installation
