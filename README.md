@@ -60,10 +60,11 @@ Installation
 	Descargar repositorio https://github.com/mmardones/demoBanco.git
 	
   	console
-  	git clone https://github.com/mmardones/demoBanco.git
-  	npm install
-  	ionic serve
-  	ionic run browser (para visualizar el mapa)
+  	1.-git clone https://github.com/mmardones/demoBanco.git
+  	2.-npm install
+	3.-Agregar api key maps
+  	4.-ionic serve
+  	5.-ionic run browser (para visualizar el mapa)
 	
 3.- Descarga e Instalación APK solo para ANDROID
 	
