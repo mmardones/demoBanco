@@ -1,0 +1,7 @@
+{
+  "name": "CropsView-Apps",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

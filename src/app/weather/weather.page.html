@@ -1,0 +1,41 @@
+<ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-back-button defaultHref="/crops/tabs/map"></ion-back-button>
+  </ion-buttons>
+  <ion-title>WEATHER</ion-title>
+</ion-toolbar>
+
+<ion-content>
+  <ion-content>
+    <ion-list padding *ngFor="let estacion of this.estaciones">
+        <ion-item (click)="verItem(estacion)">           
+            <ion-grid>
+              <ion-row>
+                <ion-col size="6" size-lg offset="0">
+                  {{estacion.name}}
+                  <!--<p>{{estacion.name}}</p>-->
+                </ion-col>
+                <ion-col size="3" size-lg offset="3">
+                  <ion-button *ngIf="mostrarItem(estacion)" class="boton_cerrar_bot" expand="full" color="light"  (click)="cerrarSession()" ><ion-icon name="arrow-forward"></ion-icon></ion-button>
+                  <ion-button *ngIf="!mostrarItem(estacion)" class="boton_cerrar_bot" expand="full" color="light"  (click)="cerrarSession()" ><ion-icon name="arrow-down"></ion-icon></ion-button>
+
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                  <ion-col size="4" size-lg offset="0">
+                    Última Captura                   
+                    <p>{{this.captura}}</p>
+                  </ion-col>
+                  <ion-col size="5" size-lg offset="3">
+                      <ion-button class="pronostico" shape="round">PRONÓSTICO</ion-button>
+                  </ion-col>
+                </ion-row>
+          </ion-grid>
+        </ion-item>
+
+    </ion-list>
+</ion-content>
+
+  
+
+</ion-content>

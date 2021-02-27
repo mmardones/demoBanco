@@ -1,0 +1,72 @@
+
+<ion-content padding class="getstart">
+
+     <ion-grid>  
+      <ion-row class="roww" >   
+          <ion-col class="coll" width="100%" style="margin-top: 30px">
+              
+          </ion-col>  
+      </ion-row> 
+      <ion-row class="roww" >   
+        <ion-col class="coll" width="100%" style="margin-top: 40px">
+            <ion-label class="bienvenido">BIENVENIDO</ion-label>
+        </ion-col>  
+      </ion-row> 
+    </ion-grid>
+    
+    <ion-grid class="Rectangle">
+        <ion-row width="100%" >
+          <ion-col align-self: center size-md="10" size-lg="10" size-xs="10"> 
+              <ion-item color="#28abb9" class="iten" lines="none"> 
+            
+                  <ion-label class="mynamemailcom" position="floating">Username</ion-label>
+                    <ion-input  class="inputmynamemailcom" [(ngModel)]="username"  required></ion-input>
+                
+            </ion-item>
+          </ion-col>
+          <ion-col align-self: center size-md="1" size-lg="1" size-xs="1"> 
+
+                  <img src="../assets/icon/user.svg" class="icon-contrasena">
+               
+
+          </ion-col>
+
+        </ion-row>
+        <ion-row width="100%" >
+            <ion-col align-self: center size-md="10" size-lg="10" size-xs="10"> 
+                <ion-item color="#28abb9" class="item" lines="none"> 
+              
+                    <ion-label class="mynamemailcom"  position="floating">Password</ion-label>
+                        <ion-input  class="inputmynamemailcom" type="password" [(ngModel)]="pass" required></ion-input>
+                  
+              </ion-item>
+            </ion-col>
+            <ion-col align-self: center size-md="1" size-lg="1" size-xs="1"> 
+      
+                      
+                          <img src="../assets/icon/password.svg" class="icon-contrasena">
+    
+            </ion-col>
+  
+          </ion-row>
+          
+
+          <ion-row class="roww" width="100%">
+              <ion-col class="coll">
+                <ion-button color="ion-color-botton-ingresar" (click)="navTabs()" class="BotonLogin">ENTRAR</ion-button>
+              </ion-col>
+            </ion-row>
+
+
+      </ion-grid>
+
+      <ion-grid>  
+          <ion-row class="roww" >   
+            <ion-col class="coll" width="100%" style="margin-top: 20px">
+                <ion-label class="Recuperarcontrasea" (click)="recuperarContrasena()" >Recuperar Contraseña</ion-label>  
+            </ion-col>  
+          </ion-row> 
+        </ion-grid>
+
+
+</ion-content>
