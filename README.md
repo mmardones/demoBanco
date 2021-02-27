@@ -9,6 +9,7 @@ Desarrollo
 	Importante! Se quitó la key maps.
 
 Dependecia:
+	
 	Ionic:
 
 	   Ionic CLI                     : 5.2.3 (C:\Users\Matias\AppData\Roaming\npm\node_modules\ionic)
@@ -21,7 +22,7 @@ Dependecia:
 	Cordova:
 
 	   Cordova CLI       : 9.0.0 (cordova-lib@9.0.1)
-	   Cordova Platforms : not available
+	   Cordova Platforms : android 8.1.0, browser 6.0.0
 	   Cordova Plugins   : cordova-plugin-ionic-keyboard 2.2.0, cordova-plugin-ionic-webview 4.1.2, (and 13 other plugins)
 
 	Utility:
