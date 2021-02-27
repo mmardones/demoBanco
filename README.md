@@ -61,3 +61,9 @@ Installation
   	ionic serve
   	ionic run browser (para visualizar el mapa)
 	
+3.- Descarga e Instalación APK solo para ANDROID
+	
+	1.-Descargar https://drive.google.com/file/d/1bKqyS7Z2cqc5DKlZvnbmGuQsTFeGI45z/view?usp=sharing
+	2.-Debe permitir la opción "ORÍGENES DESCONOCIDOS"
+	3.-Instalar.
+	4.-Por defecto tiene un usuario configurado en el login y solo debe "Entrar"
