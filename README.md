@@ -6,7 +6,7 @@ Desarrollo
 
 	Cuenta con una login, perfil y mapa.
 
-	Se quitó la key maps.
+	Importante! Se quitó la key maps.
 
 Dependecia:
 
